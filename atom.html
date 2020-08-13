@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;atom - Goon Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">Goon Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="atom.html#var">Var Details</a> - <a href="atom.html#proc">Proc Details</a></header>
+<main>
+<h1>/<a href="atom.html">atom</a><aside> inherits /<a href="datum.html">datum</a></aside>
+        
+    
+            <a href="https://github.com/goonstation/goonstation/blob/5d6d77c7f1db0702e435914ccbf60579970803aa/code/atom.dm#L84">
+        <img src="git.png" width="16" height="16" title="code&#x2F;atom.dm 84"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="atom.html#var/reagents">reagents</a></th><td>Chemistry.</td></tr>
+            <tr><th><a href="atom.html#var/throw_count">throw_count</a></th><td>EXPERIMENTAL STUFF</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="atom.html#proc/Turn">Turn</a></th><td>Chemistry.</td></tr>
+            <tr><th><a href="atom.html#proc/add_sm_light">add_sm_light</a></th><td>light.pixel_x = (vx * min(dist,light.dist) * 32) - 32</td></tr>
+            <tr><th><a href="atom.html#proc/attackby">attackby</a></th><td>( istype(W, /obj/item/grab)  || istype(W, /obj/item/spraybottle) || istype(W, /obj/item/card/emag)))</td></tr>
+            <tr><th><a href="atom.html#proc/blob_act">blob_act</a></th><td>BLOB RELATED PROCS</td></tr>
+            <tr><th><a href="atom.html#proc/contents_ui_distance">contents_ui_distance</a></th><td>public</td></tr>
+            <tr><th><a href="atom.html#proc/isInContents">isInContents</a></th><td>Returns true if a given atom is within a given holder's contents</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/reagents"><aside class="declaration">var </aside>reagents
+            <aside>&ndash; /<a href="datum.html">datum</a>/reagents</aside>
+        
+    
+            <a href="https://github.com/goonstation/goonstation/blob/5d6d77c7f1db0702e435914ccbf60579970803aa/code/atom.dm#L200">
+        <img src="git.png" width="16" height="16" title="code&#x2F;atom.dm 200"/></a></h3>
+        <p>Chemistry.</p><h3 id="var/throw_count"><aside class="declaration">var </aside>throw_count
+            <aside>&ndash; /tmp</aside>
+        
+    
+            <a href="https://github.com/goonstation/goonstation/blob/5d6d77c7f1db0702e435914ccbf60579970803aa/code/atom/throwing.dm#L1">
+        <img src="git.png" width="16" height="16" title="code&#x2F;atom&#x2F;throwing.dm 1"/></a></h3>
+        <p>EXPERIMENTAL STUFF</p><h2 id="proc">Proc Details</h2><h3 id="proc/Turn"><aside class="declaration">proc </aside>Turn<aside>(rot) 
+        
+    
+            <a href="https://github.com/goonstation/goonstation/blob/5d6d77c7f1db0702e435914ccbf60579970803aa/code/atom.dm#L224">
+        <img src="git.png" width="16" height="16" title="code&#x2F;atom.dm 224"/></a></aside>
+        </h3>
+        <p>Chemistry.</p><h3 id="proc/add_sm_light"><aside class="declaration">proc </aside>add_sm_light<aside>(id, /list/rgba, medium, directional) 
+        
+    
+            <a href="https://github.com/goonstation/goonstation/blob/5d6d77c7f1db0702e435914ccbf60579970803aa/code/SimpleLight.dm#L395">
+        <img src="git.png" width="16" height="16" title="code&#x2F;SimpleLight.dm 395"/></a></aside>
+        </h3>
+        <p>light.pixel_x = (vx * min(dist,light.dist) * 32) - 32</p><h3 id="proc/attackby"><aside class="declaration">proc </aside>attackby<aside>(/<a href="obj.html">obj</a>/item/W, /<a href="mob.html">mob</a>/user, params, is_special) 
+        
+    
+            <a href="https://github.com/goonstation/goonstation/blob/5d6d77c7f1db0702e435914ccbf60579970803aa/code/atom.dm#L708">
+        <img src="git.png" width="16" height="16" title="code&#x2F;atom.dm 708"/></a></aside>
+        </h3>
+        <p>( istype(W, /obj/item/grab)  || istype(W, /obj/item/spraybottle) || istype(W, /obj/item/card/emag)))</p><h3 id="proc/blob_act"><aside class="declaration">proc </aside>blob_act<aside>(power) 
+        
+    
+            <a href="https://github.com/goonstation/goonstation/blob/5d6d77c7f1db0702e435914ccbf60579970803aa/code/obj/blob.dm#L1246">
+        <img src="git.png" width="16" height="16" title="code&#x2F;obj&#x2F;blob.dm 1246"/></a></aside>
+        </h3>
+        <p>BLOB RELATED PROCS</p><h3 id="proc/contents_ui_distance"><aside class="declaration">proc </aside>contents_ui_distance<aside>(src_object, /<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/user) 
+        
+    
+            <a href="https://github.com/goonstation/goonstation/blob/5d6d77c7f1db0702e435914ccbf60579970803aa/code/modules/tgui/states.dm#L102">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;tgui&#x2F;states.dm 102"/></a></aside>
+        </h3>
+        <p>public</p>
+<p>Check the distance for a living mob.
+Really only used for checks outside the context of a mob.
+Otherwise, use shared_living_ui_distance().</p>
+<p>required src_object The object which owns the UI.
+required user mob The mob who opened/is using the UI.</p>
+<p>return UI_state The state of the UI.</p><h3 id="proc/isInContents"><aside class="declaration">proc </aside>isInContents<aside>(/<a href="atom.html">atom</a>/item, /<a href="atom.html">atom</a>/holder) 
+        
+    
+            <a href="https://github.com/goonstation/goonstation/blob/5d6d77c7f1db0702e435914ccbf60579970803aa/code/procs/helpers.dm#L2375">
+        <img src="git.png" width="16" height="16" title="code&#x2F;procs&#x2F;helpers.dm 2375"/></a></aside>
+        </h3>
+        <p>Returns true if a given atom is within a given holder's contents</p></main>
+<footer>
+    goonstation.dme
+    <a href="https://github.com/goonstation/goonstation/tree/5d6d77c7f1db0702e435914ccbf60579970803aa">5d6d77c</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.2.2</a></footer>
+</body>
+</html>
